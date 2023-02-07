@@ -1,0 +1,33 @@
+.main ul, .offsite-nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding-left: 0;
+}
+.main a {
+    text-decoration: none;
+    color:#15410a;
+    font-size: 30px;
+}
+.main a{
+    padding: 8px 13px;
+    display:block;
+    border-radius: 18px;
+    border: 2px solid #175a2b;
+   
+}
+
+.main ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main a.main-index{
+    color:#0a2c29;
+    
+    border: 2px solid #175a2b;
+    background-color: #99da89;
+}
+.main a:hover{
+    background-color: #99da89;
+}
